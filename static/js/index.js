@@ -27,7 +27,7 @@ function styles() {
       row.setAttribute("class", "status fs-3 text-danger");
     }
     if (row.textContent == "running") {
-      row.textContent = "En Cours d'Execution";laravel
+      row.textContent = "En Cours d'Execution";
       row.setAttribute("class", "status fs-3 text-success");
       row.setAttribute("action", "/");
     }
